@@ -3,7 +3,7 @@ import os
 
 print("Домашнее задание")
 empty_files_dir = "Work/empty_files"
-os.makedirs(empty_files_dir, exist_ok=True)
+os.makedirs(empty_files_dir)
 
 
 def empty_file_search(directory):
