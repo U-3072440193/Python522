@@ -5,7 +5,7 @@ import re
 import platform
 
 def get_public_ip():
-    url = "https://illustrators.ru"
+    url = "https://"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; 64)"
     }
