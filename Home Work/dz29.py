@@ -1,14 +1,4 @@
 from abc import ABC, abstractmethod
-import logging
-
-
-logger = logging.getLogger("my_logger")
-logger.setLevel(logging.DEBUG)
-
-handler = logging.StreamHandler()
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(user_id)s - %(message)s')
-handler.setFormatter(formatter)
-logger.addHandler(handler)
 
 
 class Shape(ABC):
