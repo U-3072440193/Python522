@@ -1,0 +1,235 @@
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: e
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: ek
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: ekl
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eklm
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eklmg
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eklmgf
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eklmgff
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: eklmgff
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 92
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 927
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9278
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 92783
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 927838
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9278382
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 92783828
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 927838280
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9278382809
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 9278382809
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'eklmgff': {'name': 'eklmgff', 'tel': '9278382809'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Функция write_json вызвана, итерация № 1
+2025-05-05 16:01:42 - Test_logs - INFO - Итерация 1, текущее значение data: {'aanaaga': {'name': 'aanaaga', 'tel': '1722893593'}, 'mcdlncc': {'name': 'mcdlncc', 'tel': '5344508492'}, 'leflafk': {'name': 'leflafk', 'tel': '9116953426'}, 'ggefbnc': {'name': 'ggefbnc', 'tel': '1979431245'}, 'bfellfg': {'name': 'bfellfg', 'tel': '7992803264'}, 'bnencbk': {'name': 'bnencbk', 'tel': '2040868120'}, 'lfbknme': {'name': 'lfbknme', 'tel': '0942871567'}, 'lfggfcf': {'name': 'lfggfcf', 'tel': '8372236377'}, 'nfgmcnk': {'name': 'nfgmcnk', 'tel': '5202387938'}, 'kcbnedd': {'name': 'kcbnedd', 'tel': '2591707639'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Обновление данных: {'eklmgff': {'name': 'eklmgff', 'tel': '9278382809'}}
+2025-05-05 16:01:42 - Test_logs - INFO - ВНИМАНИЕ! Активирована команда записи в файл persons.json!!!!
+2025-05-05 16:01:42 - Test_logs - INFO - Вызов write_json, итерация № 0
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: l
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lg
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lgd
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lgdn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lgdne
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lgdnek
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lgdnekk
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: lgdnekk
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 7
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 76
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 764
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 7644
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 76447
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 764470
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 7644702
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 76447025
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 764470256
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 7644702564
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 7644702564
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'lgdnekk': {'name': 'lgdnekk', 'tel': '7644702564'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Функция write_json вызвана, итерация № 2
+2025-05-05 16:01:42 - Test_logs - INFO - Итерация 2, текущее значение data: {'aanaaga': {'name': 'aanaaga', 'tel': '1722893593'}, 'mcdlncc': {'name': 'mcdlncc', 'tel': '5344508492'}, 'leflafk': {'name': 'leflafk', 'tel': '9116953426'}, 'ggefbnc': {'name': 'ggefbnc', 'tel': '1979431245'}, 'bfellfg': {'name': 'bfellfg', 'tel': '7992803264'}, 'bnencbk': {'name': 'bnencbk', 'tel': '2040868120'}, 'lfbknme': {'name': 'lfbknme', 'tel': '0942871567'}, 'lfggfcf': {'name': 'lfggfcf', 'tel': '8372236377'}, 'nfgmcnk': {'name': 'nfgmcnk', 'tel': '5202387938'}, 'kcbnedd': {'name': 'kcbnedd', 'tel': '2591707639'}, 'eklmgff': {'name': 'eklmgff', 'tel': '9278382809'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Обновление данных: {'lgdnekk': {'name': 'lgdnekk', 'tel': '7644702564'}}
+2025-05-05 16:01:42 - Test_logs - INFO - ВНИМАНИЕ! Активирована команда записи в файл persons.json!!!!
+2025-05-05 16:01:42 - Test_logs - INFO - Вызов write_json, итерация № 1
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: m
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: ml
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mln
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mlnl
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mlnld
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mlnldn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mlnldnb
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: mlnldnb
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 93
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 933
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9338
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 93384
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 933847
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9338472
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 93384726
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 933847260
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9338472601
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 9338472601
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'mlnldnb': {'name': 'mlnldnb', 'tel': '9338472601'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Функция write_json вызвана, итерация № 3
+2025-05-05 16:01:42 - Test_logs - INFO - Итерация 3, текущее значение data: {'aanaaga': {'name': 'aanaaga', 'tel': '1722893593'}, 'mcdlncc': {'name': 'mcdlncc', 'tel': '5344508492'}, 'leflafk': {'name': 'leflafk', 'tel': '9116953426'}, 'ggefbnc': {'name': 'ggefbnc', 'tel': '1979431245'}, 'bfellfg': {'name': 'bfellfg', 'tel': '7992803264'}, 'bnencbk': {'name': 'bnencbk', 'tel': '2040868120'}, 'lfbknme': {'name': 'lfbknme', 'tel': '0942871567'}, 'lfggfcf': {'name': 'lfggfcf', 'tel': '8372236377'}, 'nfgmcnk': {'name': 'nfgmcnk', 'tel': '5202387938'}, 'kcbnedd': {'name': 'kcbnedd', 'tel': '2591707639'}, 'eklmgff': {'name': 'eklmgff', 'tel': '9278382809'}, 'lgdnekk': {'name': 'lgdnekk', 'tel': '7644702564'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Обновление данных: {'mlnldnb': {'name': 'mlnldnb', 'tel': '9338472601'}}
+2025-05-05 16:01:42 - Test_logs - INFO - ВНИМАНИЕ! Активирована команда записи в файл persons.json!!!!
+2025-05-05 16:01:42 - Test_logs - INFO - Вызов write_json, итерация № 2
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: e
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: ee
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeg
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eegg
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeggl
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeggla
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eegglab
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: eegglab
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 8
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 88
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 881
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 8818
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 88180
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 881806
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 8818060
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 88180606
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 881806063
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 8818060630
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 8818060630
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'eegglab': {'name': 'eegglab', 'tel': '8818060630'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Функция write_json вызвана, итерация № 4
+2025-05-05 16:01:42 - Test_logs - INFO - Итерация 4, текущее значение data: {'aanaaga': {'name': 'aanaaga', 'tel': '1722893593'}, 'mcdlncc': {'name': 'mcdlncc', 'tel': '5344508492'}, 'leflafk': {'name': 'leflafk', 'tel': '9116953426'}, 'ggefbnc': {'name': 'ggefbnc', 'tel': '1979431245'}, 'bfellfg': {'name': 'bfellfg', 'tel': '7992803264'}, 'bnencbk': {'name': 'bnencbk', 'tel': '2040868120'}, 'lfbknme': {'name': 'lfbknme', 'tel': '0942871567'}, 'lfggfcf': {'name': 'lfggfcf', 'tel': '8372236377'}, 'nfgmcnk': {'name': 'nfgmcnk', 'tel': '5202387938'}, 'kcbnedd': {'name': 'kcbnedd', 'tel': '2591707639'}, 'eklmgff': {'name': 'eklmgff', 'tel': '9278382809'}, 'lgdnekk': {'name': 'lgdnekk', 'tel': '7644702564'}, 'mlnldnb': {'name': 'mlnldnb', 'tel': '9338472601'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Обновление данных: {'eegglab': {'name': 'eegglab', 'tel': '8818060630'}}
+2025-05-05 16:01:42 - Test_logs - INFO - ВНИМАНИЕ! Активирована команда записи в файл persons.json!!!!
+2025-05-05 16:01:42 - Test_logs - INFO - Вызов write_json, итерация № 3
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: e
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: ee
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eee
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeeb
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeebn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeebnn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: eeebnnl
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: eeebnnl
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 5
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 58
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 586
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 5865
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 58651
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 586517
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 5865170
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 58651705
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 586517057
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 5865170573
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 5865170573
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'eeebnnl': {'name': 'eeebnnl', 'tel': '5865170573'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Функция write_json вызвана, итерация № 5
+2025-05-05 16:01:42 - Test_logs - INFO - Итерация 5, текущее значение data: {'aanaaga': {'name': 'aanaaga', 'tel': '1722893593'}, 'mcdlncc': {'name': 'mcdlncc', 'tel': '5344508492'}, 'leflafk': {'name': 'leflafk', 'tel': '9116953426'}, 'ggefbnc': {'name': 'ggefbnc', 'tel': '1979431245'}, 'bfellfg': {'name': 'bfellfg', 'tel': '7992803264'}, 'bnencbk': {'name': 'bnencbk', 'tel': '2040868120'}, 'lfbknme': {'name': 'lfbknme', 'tel': '0942871567'}, 'lfggfcf': {'name': 'lfggfcf', 'tel': '8372236377'}, 'nfgmcnk': {'name': 'nfgmcnk', 'tel': '5202387938'}, 'kcbnedd': {'name': 'kcbnedd', 'tel': '2591707639'}, 'eklmgff': {'name': 'eklmgff', 'tel': '9278382809'}, 'lgdnekk': {'name': 'lgdnekk', 'tel': '7644702564'}, 'mlnldnb': {'name': 'mlnldnb', 'tel': '9338472601'}, 'eegglab': {'name': 'eegglab', 'tel': '8818060630'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Обновление данных: {'eeebnnl': {'name': 'eeebnnl', 'tel': '5865170573'}}
+2025-05-05 16:01:42 - Test_logs - INFO - ВНИМАНИЕ! Активирована команда записи в файл persons.json!!!!
+2025-05-05 16:01:42 - Test_logs - INFO - Вызов write_json, итерация № 4
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: l
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lk
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lkc
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lkce
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lkcea
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lkceal
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: lkcealn
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: lkcealn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 00
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 004
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0047
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 00473
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 004733
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0047332
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 00473325
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 004733259
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0047332591
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 0047332591
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'lkcealn': {'name': 'lkcealn', 'tel': '0047332591'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: m
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mg
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mgc
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mgcm
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mgcmd
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mgcmdd
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mgcmddc
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: mgcmddc
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 98
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 981
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9812
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 98122
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 981223
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9812236
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 98122365
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 981223655
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 9812236558
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 9812236558
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'mgcmddc': {'name': 'mgcmddc', 'tel': '9812236558'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: k
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: kb
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: kbf
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: kbff
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: kbffa
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: kbffal
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: kbffale
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: kbffale
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 3
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 38
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 384
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 3848
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 38486
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 384862
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 3848627
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 38486278
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 384862783
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 3848627838
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 3848627838
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'kbffale': {'name': 'kbffale', 'tel': '3848627838'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: m
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mk
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mkc
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mkcl
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mkclb
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mkclbc
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: mkclbcb
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: mkclbcb
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 6
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 65
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 658
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 6582
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 65821
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 658211
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 6582116
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 65821160
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 658211600
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 6582116000
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 6582116000
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'mkclbcb': {'name': 'mkclbcb', 'tel': '6582116000'}}
+2025-05-05 16:01:42 - Test_logs - INFO - Начало генерации данных
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: a
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: an
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: and
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: andd
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: anddn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: anddnk
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: anddnkn
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл name1 завершен с конечным результатом переменной: anddnkn
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 07
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 078
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0788
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 07887
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 078873
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0788732
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 07887320
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 078873202
+2025-05-05 16:01:42 - Test_logs - INFO - name1 на данный момент: 0788732028
+2025-05-05 16:01:42 - Test_logs - INFO - Цикл tel завершен с конечным результатом переменной: 0788732028
+2025-05-05 16:01:42 - Test_logs - INFO - Сформирован словарь:{'anddnkn': {'name': 'anddnkn', 'tel': '0788732028'}}

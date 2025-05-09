@@ -5,3 +5,6 @@ class Rectangle:
 
     def get_perimeter(self):
         return 2 * (self.h + self.w)
+
+
+print(__name__)
