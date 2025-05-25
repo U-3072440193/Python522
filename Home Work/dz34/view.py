@@ -12,7 +12,7 @@ def add_title(title):
 
 
 class UserInterface:
-    @add_title("Ввод пользовательских данных")
+    @add_title("Редактирование данных каталога фильмов")
     def wait_user_answer(self):
         print("Действия с фильмами:")
         print("1 - добавление фильма"
