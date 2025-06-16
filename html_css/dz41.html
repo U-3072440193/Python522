@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <style>
+        .main{
+            list-style-type: upper-roman; 
+            padding-left: 40px;
+        }
+        .one.two {
+            list-style-type: lower-alpha;
+            color: black;
+        }
+        .orange_marker {
+            list-style-image: url('orange_marker.png');
+        }
+        .green_marker {
+            list-style-image: url('green_marker.png')
+        }
+        .red_marker {
+            list-style-image: url('red_marker.png')
+        }
+        .blue_marker {
+            list-style-image: url('blue_marker.png')
+        }
+        .black_marker {
+            list-style-image: url('black_marker.png')
+        }
+    </style>
+</head>
+<body>
+    <ol class="main">
+        <li style="color: red;">Photoshop
+            <ul class="one">
+                <li class="one two">Интерфейс</li>
+                <li class="one two">Эффекты</li>
+                <li class="one two">Инструменты</li>
+                <li class="one two">Практика</li>
+            </ul>
+        </li>
+        <li style="color: orange;">Illustrator
+            <ul>
+                <li class="one two">Интерфейс</li>
+                <li class="one two">Инструменты</li>
+                <li class="one two">Практика</li>
+            </ul>
+        </li>
+        <li style="color: green;">Верстка
+            <ol type="A">
+                <li class="one two">XHTML
+                    <ol type="1">
+                        <li class="one two orange_marker">Основы</li>
+                        <li class="one two orange_marker">Способы верстки:
+                            <ul>
+                                <li class="one two green_marker">Таблицы</li>
+                                <li class="one two green_marker">Фреймы</li>
+                                <li class="one two green_marker">Верстка тегами div</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>CSS
+                    <ul>
+                        <li class="one two">Основы</li>
+                        <li class="one two">Перечень свойств</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li style="color: aqua;">Flash
+            <ul>
+                <li class="one two">Анимация</li>
+                <li class="one two">Action script</li>
+            </ul>
+        </li>
+        <li style="color: blueviolet;">CMS
+            <ul>
+                <li class="one two">WorldPress
+                    <ul>
+                        <li class="one two red_marker">Установка</li>
+                        <li class="one two red_marker">Основы работы
+                            <ul>
+                                <li class="one two blue_marker">Интерфейс</li>
+                                <li class="one two blue_marker">Шаблоны</li>
+                                <li class="one two blue_marker">Контент</li>
+                                <li class="one two blue_marker">Плагины</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="one two">Joomila
+                <ul>
+                    <li class="one two red_marker">Установка</li>
+                    <li class="one two red_marker">Основы работы:
+                        <ul>
+                            <li class="one two blue_marker">Интерфейс</li>
+                            <li class="one two blue_marker">Шаблоны</li>
+                            <li class="one two blue_marker">Контент</li>
+                            <li class="one two blue_marker">Расширения
+                                <ul>
+                                    <li class="one two black_marker">Компоненты</li>
+                                    <li class="one two black_marker">Модули</li>
+                                    <li class="one two black_marker">Плагины</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
