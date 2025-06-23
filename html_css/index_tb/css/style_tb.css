@@ -1,0 +1,31 @@
+table {
+    border: 2px lightgrey solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 100px auto 0 auto;
+    font-weight: bold;
+    box-shadow: 3px 3px 4px 3px rgb(151, 151, 151);
+   
+}
+
+th,td {
+    padding: 10px 15px;
+    border: 2px solid lightgrey;
+}
+
+
+body {
+    background-image: url("../img/pattern.png");
+}
+
+th {
+    background-image: url(../img/tablebg.jpg);
+    padding: 15px;
+    
+}
+
+.row{
+    background-color: lightgrey;
+}

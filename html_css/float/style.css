@@ -1,0 +1,18 @@
+.img{
+    width: 300px;
+    float:left;
+    
+}
+.one{
+    color: blue;
+    float:left;
+    width: 300px;
+}
+.two{
+    color: blueviolet;
+    float:left;
+    width: 300px;
+}
+.tree{
+    clear: left;
+}
