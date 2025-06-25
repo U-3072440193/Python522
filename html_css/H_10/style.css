@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{  /* флекс-контейнер */
+	height: 300px;
+	background: yellow;
+	margin: 100px auto;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
+	align-items: flex-start;
+}
+
+.element{   /* флекс-элементы */
+	border: 1px solid black;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin: 20px;	
+}
+.one{
+	font-size: 40px;
+	align-self: flex-start;
+}
+.three{
+	order: 1;
+}
+.five{
+	order: -1;
+
+}
