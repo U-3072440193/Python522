@@ -12,7 +12,7 @@ body{
 }
 .top{
     background: #f3f3f3;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 .top__block--left{
     margin: 0;
@@ -72,15 +72,423 @@ body{
 .btn.outline{
     border: 1px solid rgb(0, 160, 193);
     border-radius: 37px;
-    color: rgb(0, 160, 193);;
+    color: rgb(0, 160, 193);
 }
 .main-content {
   width: 860px;
   margin: 0 auto;
-  padding: 40px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   text-align: center;
+}
+
+/* choose */
+.choose {
+    padding: 145px 0 100px;
+}
+ 
+.choose h2 {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+ 
+.choose__title--text {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 45px;
+}
+ 
+.choose__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+.choose__element {
+    flex-basis: 328px;
+    box-sizing: border-box;
+    border: 1px solid rgb(232, 232, 232);
+    background: rgb(255, 255, 255);
+    padding: 35px 40px;
+    margin-bottom: 30px;
+}
+ 
+.choose__title {
+    display: flex;
+    align-items: center;
+}
+ 
+.choose__title h5 {
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin: 0 0 0 15px;
+}
+ 
+.choose__title p {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.choose__content {
+    width: 860px;
+    margin: 0 auto;
+}
+
+/* team */
+.team {
+    border-top: 1px solid gray;
+    /* удалить потом */
+    padding: 80px 0 50px;
+}
+
+.team h2, .dz h2 {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.team p {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+.team__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team__element {
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 238);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team__element h5 {
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin: 30px 0 5px;
+}
+
+.team__element h6 {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0 0 5px;
+}
+
+.team__element div img {
+    margin: 0 7.5px 30px;
+}
+
+.team__element>img {
+    width: 100%;
+}
+
+/* contact */
+.contact {
+    padding: 90px 0;
+    background: url(images/b_5_fon.jpg) center #EFEFEF;
+    background-size: cover;
+}
+
+.contact h5 {
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin: 0;
+}
+
+.contact h2 {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin: 0 0 40px;
+}
+
+form {
+    max-width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    flex-basis: 290px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+textarea {
+    flex-basis: 100%;
+    margin-right: 20px;
+    padding: 12px 20px;
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    background: rgb(249, 249, 249);
+    height: 140px;
+    margin-bottom: 40px;
+}
+
+input {
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    background: rgb(249, 249, 249);
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 12px 20px;
+}
+
+select {
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    background: rgb(249, 249, 249);
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 12px 20px;
+}
+
+button{
+    border-radius: 5px;
+    background: rgb(255, 166, 43);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.prior {
+    margin: 0;
+    
+    width: 234px;
+    height: auto;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 0px;
+    color: rgb(115, 115, 115);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+.dz {
+    background: rgb(243, 243, 243);
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 80px 0px 80px 0px;
+}
+
+.dz__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.inner-inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+.inner-inner-card h6 {
+    margin: 0 ;
+    color: rgb(37, 43, 66);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+.inner-inner-card a {
+    margin: 0 ;
+    color: rgb(255, 166, 43);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-decoration: none;
+}
+.inner-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.card-item {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 35px 30px 35px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    /* light background */
+    background: rgb(255, 255, 255);
+    }
+
+.dz__outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    gap: 32.5px; 
+    flex-wrap: wrap;
+}
+
+.dz__title--text {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stars {
+    margin-bottom: 20px;
+}
+.consulting__button {
+
+   
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.consulting__text h3 {
+    padding: 0px;
+    color: rgb(37, 43, 66);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+.consulting__text p {
+
+    padding: 0;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+.consulting__text h3,
+.consulting__text p {
+    margin: 0;
+    padding: 0;
+}
+.consulting__wraped {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0px 40px 0px;
+    
+
+}
+.inner-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0px 40px 0px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.left {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+.outer-last {
+    background: rgb(37, 43, 66);
 }
