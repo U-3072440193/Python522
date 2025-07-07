@@ -1,34 +1,44 @@
-*{
-	margin: 0;
-	padding: 0;
+
+
+.tr {
+    width: 100px;
+    border: 1px solid blue;
+    padding: 10px;
+    cursor: pointer;
+    transition: width 2s, color 3s, background 3s;
+    color: gold;
+    background: black;
+}
+.tr:hover{
+    width: 300px;
+    color: wheat;
+    background: silver;
+}
+.animation {
+    border: 1px solid brown;
+    background: violet;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: anim 4s infinite;
 }
 
-.container{  /* флекс-контейнер */
-	height: 300px;
-	background: yellow;
-	margin: 100px auto;
-	padding: 10px 0;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;	
-	align-items: flex-start;
-}
-
-.element{   /* флекс-элементы */
-	border: 1px solid black;
-	padding: 10px 20px;
-	box-sizing: border-box;
-	margin: 20px;	
-}
-.one{
-	font-size: 40px;
-	align-self: flex-start;
-}
-.three{
-	order: 1;
-}
-.five{
-	order: -1;
-
+@keyframes anim{
+    0%{
+        margin-right: 3px;
+        background: blue;
+    }
+    40%{
+        margin-top: 300px;
+        background: red;
+        width: 200px;height: 200px;
+    }
+    60%{
+        margin-left: 300px;
+        background: gold;
+        margin-top: 250px;
+    }
+    100%{
+        margin-left: 600px;
+    }
 }

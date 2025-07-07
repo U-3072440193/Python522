@@ -27,6 +27,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .top__block--right{
     margin: 0;
@@ -491,4 +492,18 @@ button{
 }
 .outer-last {
     background: rgb(37, 43, 66);
+}
+@media (max-width: 1050px) {
+    .wrap{
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    .choose__block, .team__block, .dz__outer {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 760px) {
+    .choose__element, .choose__element{
+        flex-basis: 100%;
+
 }
