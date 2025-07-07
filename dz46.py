@@ -46,9 +46,9 @@ class Dz46:
         logger.info(f"Записано {len(self.data)} строк в файл data.txt")
 
 
-parser = Dz46('https://lenta.ru')
+parser = Dz46('https://webref.ru')
 parser.get_html()
-parser.get_data('a', '_topnews')
+parser.get_data('div', 'w-category-grid-descr')
 parser.write()
 aa = Dz46('https://www.wildberries.ru')
 aa.get_html()
