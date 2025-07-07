@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import logging
+import csv
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -37,13 +38,18 @@ class Dz46:
             self.data.append(text)
         return self.data
 
-    def write(self):
+    def write(self, filename='data.csv'):
         if not self.data:
             logger.warning("Нет данных для записи")
             return
-        with open('data.txt', 'a', encoding='utf-8') as f:
-            f.write('\n'.join(self.data) + '\n')
-        logger.info(f"Записано {len(self.data)} строк в файл data.txt")
+        try:
+            with open(filename, 'a', encoding='utf-8', newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                for row in self.data:
+                    writer.writerow([row])
+            logger.info(f"Записано {len(self.data)} строк в файл {filename}")
+        except Exception as error:
+            logger.error(f"Ошибка при записи в CSV: {error}")
 
 
 parser = Dz46('https://webref.ru')
