@@ -1,4 +1,4 @@
-let message;
+/* let message;
 message = 'Hello';
 console.log(message);
 
@@ -17,3 +17,15 @@ console.log(res)
     else{
         alert('ghjjhf'); 
     }
+ */
+/* for (let i = 1; i < 6; i++) {
+  document.writeln("<br><br>shit<br>");
+}
+ */
+for(let i=0;i<4;i++){
+    document.writeln("+++<br>")
+    for(let j=0;j<7;j++){
+        document.writeln("--<br>")
+    }
+}
+
