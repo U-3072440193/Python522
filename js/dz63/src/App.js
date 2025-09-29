@@ -1,23 +1,23 @@
+
 import './App.css';
-import React from 'react';
-import Range from './Range' 
+import Nav from "./Nav";
+import Header from "./Header";
+import Article from "./Article";
+import Footer from "./Footer";
 
+function App(props) {
+/*   let title = "7mi site"; */
+/*   let slogan = "i banging react" */
+let {title, slogan, navigation,db,icon,copy} = props;
+  return (
+    <div className="App">
+      <Header title={title} slogan={slogan}/>
+      <Nav navigation={navigation}/>
+      <Article db={db} icon={icon} />
+      <Footer text={copy}/>
 
-class App extends React.Component {
-  state = {
-    posts: [
-      {id:'1',name:'js base', title:'learn some'},
-      {id:'2',name:'js adv', title:'learn some more'},
-      {id:'3',name:'react', title:'learn all'}
-    ]
-  }
-  render() {
-    return (
-      <div >
-        <Range /> 
-      </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
