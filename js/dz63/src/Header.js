@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+
 import './Header.css'
+
 function Header(props){
-    let {title, slogan} = props;
+    let {title, slogan,logo} = props;
     return (
         
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-            Edit <code>src/App.js</code> and save to reload.
-            </p>
+            <img src={logo} alt="logo" />
+        
             <h1>{title}</h1>
             <p>{slogan}</p>
       </header>

@@ -32,6 +32,11 @@ body {
     margin-top: 25px;
     box-shadow: 5px 5px 30px rgba(0,0,0, .2);
     border-radius: 4px;
+    display: grid;
+    place-items: center; 
+    text-align: center;
+    padding: 20px;
+    
 }
 
 img {
@@ -39,27 +44,20 @@ img {
     height: 300px;
     object-fit: cover;
 }
-
-.name {
-    font-size: 26px;
-    text-align: center;
-}
-
-.pol {
-    margin-top: 10px;
+.button-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    
 }
-
-.pol img {
-    width: 35px;
-    height: 35px;
-}
-
-.age {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 24px;
+.buttonOne {
+    padding: 15px 30px;
+    background: linear-gradient(to bottom, #7d7eb6, #6f537c);
+    color: aliceblue;
+    font-weight: bolder;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 

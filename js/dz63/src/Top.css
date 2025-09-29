@@ -1,0 +1,13 @@
+.title{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 8px;
+}
+.rating{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background: gray;
+    margin: 7px;
+    padding: 8px;
+    border-radius: 10px;
+}
