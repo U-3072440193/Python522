@@ -1,0 +1,20 @@
+.header{
+    background: linear-gradient(to bottom, rgb(34, 19, 32), rgb(47, 47, 85));
+    color: aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+}
+
+.header .wrap{
+    display:  flex;
+    justify-content:space-between;
+    align-items:  center;
+}
+.right{
+    text-align: right;
+}
+.logo{
+    font-size:  30px;
+    font-weight:  bold;
+}

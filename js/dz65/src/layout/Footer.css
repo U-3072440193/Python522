@@ -1,0 +1,16 @@
+.footer{
+    text-align: center;
+    background: linear-gradient(
+    to right,
+    rgb(253, 199, 100) 0%,    
+    rgb(255, 218, 116) 35%,
+    rgb(255, 231, 166) 50%,  
+    rgb(255, 220, 130) 65%, 
+    rgb(247, 189, 82) 100%  
+  );
+    color: rgb(61, 61, 61);
+    padding:  10px 0;
+    box-sizing:  border-box;
+    font-weight: bold;
+    
+}

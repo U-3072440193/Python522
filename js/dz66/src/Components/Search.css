@@ -1,0 +1,72 @@
+.search{
+    margin: 20px 50px 0;
+}
+
+.search input{
+    border: 0;
+    padding: 20px 10px 10px;
+    width: calc(100% - 90px);
+    color: #999;
+    font-size: 20px;
+}
+
+.search input:focus{
+    outline: none;
+    border-bottom: 1px solid #CCC;
+}
+
+.btn{
+    background: linear-gradient(to bottom,rgb(156, 123, 218),rgb(214, 213, 252));
+    color: black;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    
+    margin-left: 10px;
+}
+
+.radio{
+    margin: 20px 50px 10px;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+}
+.radio label{
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.view{
+    background: black;
+    color: #CCC;
+}
+.scrollContainer{
+    padding: 5px;
+}
+.hidden {
+    display: none;
+}
+.totalResults{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(to bottom,rgb(50, 23, 104),rgb(75, 82, 133));
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+
+
+}
+.butt{
+    width: 100px;
+}
+.butt-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}

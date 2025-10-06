@@ -1,0 +1,20 @@
+.card{
+    flex-basis:  300px;
+    margin: 20px;
+    box-shadow:  1px 1px 2px gray;
+}
+
+.card div{
+    padding:  10px 20px;
+}
+
+.card p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-container {
+  display: flex;       /* делаем flex-контейнер */
+  flex-wrap: wrap;     /* чтобы карточки переносились на новую строку */
+  gap: 20px;           /* расстояние между карточками */
+}
