@@ -1,0 +1,18 @@
+body{
+    background: rgb(173, 173, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 400px;
+    margin:  0 auto;
+}
+.container h1{
+    text-align: center;
+}
+.container form, .container h2{
+    background: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 1px 1px;
+}

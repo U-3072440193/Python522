@@ -1,0 +1,16 @@
+{%extends 'skills/base.html'%}
+{%load static%}
+{%block content%}
+<h1>Portfffff ollllio</h1>
+<div class="img"><img src="{%static 'skills/html_css.jpg'%}" alt=""></div>
+<h2>Stuck tech</h2>
+<div class="block">
+    {% for aa in projects %}
+    <div><img src="{{aa.image.url}}" alt=""></div>
+    <div class="text">
+         <h2><a href="{{aa.url}}" target="_blank">{{ aa.title }}</a></h2>
+        <p>{{aa.description}}</p>
+    </div>
+    {%endfor%}
+</div>
+{%endblock%}
