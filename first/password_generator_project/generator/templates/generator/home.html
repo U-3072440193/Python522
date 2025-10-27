@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container"></div>
+<h1 style="color: red">Password generator</h1>
+<form action="{%url 'psw'%}">
+    <p>
+        <select name="length" style="padding: 2px">
+            {%for i in lst%}
+            <option value='{{i}}'>{{i}}</option>
+            {%endfor%}
+        </select>
+    </p>
+    <p>
+        <input type="checkbox" name="uppercase" id="upper">
+        <label for="upper">Upper reg</label>
+    </p>
+    <p>
+        <input type="checkbox" name="numbers" id="num">
+        <label for="num">Numbers</label>
+    </p>
+    <p>
+        <input type="checkbox" name="special" id="spec">
+        <label for="spec">Specials</label>
+    </p>
+
+    <input type="submit" value="generate pass">
+</form>
+</body>
+</html>
