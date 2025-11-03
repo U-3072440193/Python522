@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dz.apps.DzConfig',
+    'dz4.apps.Dz4Config',
 ]
 
 MIDDLEWARE = [

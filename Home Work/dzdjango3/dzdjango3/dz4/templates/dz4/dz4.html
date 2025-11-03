@@ -1,4 +1,27 @@
 {% extends 'dz/base.html' %}
 {% block content %}
-<h1>dfbgfdhnbfvnb</h1>
-{% endblock%}
+
+<div class="header">
+    <div class="head">
+        <a href="/"  target="_blank">Каталог курсов</a>
+        <a href="/"  target="_blank">Добавить курс</a>
+        <a href="/"  target="_blank">Информация</a>
+    </div>
+</div>
+<h1>Pricing</h1>
+
+
+<div class="container">
+    {% for i in dz %}
+    <div class="element">
+        <h2 class="title"><a href="{% url 'detail' i.id %}" target="_blank">{{ i.title }}</a></h2>
+        <div class="block_text">
+            <h2>{{ i.price }}</h2>
+            <p>{{ i.description }}</p>
+        </div>
+        <a href="{% url 'detail' i.id %}" class="btn" target="_blank">Купить</a>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

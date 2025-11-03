@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Dz4
 
-# Register your models here.
+admin.site.register(Dz4)
