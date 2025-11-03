@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from .models import Dz
 
-# Create your views here.
+
+def index(request):
+    albums = Dz.objects.all()
+    return render(request, 'dz/index.html', {'albums': albums})

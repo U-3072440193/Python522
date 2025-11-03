@@ -1,0 +1,21 @@
+{% extends 'dz/base.html' %}
+<h1>Портфолио раздатчика с торрентов</h1>
+{% block content %}
+
+<div class="block">
+    {% for album in albums %}
+    <div class="element">
+        <h2>{{ album.album_name }}</h2>
+        <div>
+
+            <img src="{{ album.pic.url }}" alt="{{ album.album_name }}">
+
+        </div>
+        <h3>{{ album.band }}</h3>
+        <h6>{{ album.year }}</h6>
+        <h6>{{ album.style }}</h6>
+        <a href="{{ album.url }}" target="_blank">Link</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
