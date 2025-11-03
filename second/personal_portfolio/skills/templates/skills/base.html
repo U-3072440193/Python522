@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'skills/favicon.ico' %}">
+
+</head>
+<body>
+<div class="content">
+    <div class="wrap">
+
+        <ul>
+            <li><a href="{%url 'index' %}">Main</a></li>
+            <li><a href="{%url 'blogs'%}">blog</a></li>
+            <li><a href="{% static 'skills/resume.pdf' %}" target='_blank'>resumeau</a></li>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <div class="wrap">
+        {% block content %}
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>
