@@ -1,0 +1,16 @@
+{% extends 'dz/base.html' %}
+{% block content %}
+<h1>Авторизация</h1>
+<h1>{{error}}</h1>
+<div class="container">
+    <div class="element">
+        <form method="post" class="bg">
+            {% csrf_token %}
+            {{ form }}
+            <button class="btn">Авторизация</button>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}
